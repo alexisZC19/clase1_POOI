@@ -4,4 +4,5 @@ class Persona{
 	//declaracion de variables
 	//1
 	//2
+	//3	
 }
