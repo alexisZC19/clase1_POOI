@@ -3,13 +3,13 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class SeleccionSortGUI extends JFrame {
+public class seleccion extends JFrame {
     
     private JButton sortButton, resetButton;
     private JTextArea inputArea, outputArea;
     private JScrollPane scrollPane1, scrollPane2;
 
-    public SeleccionSortGUI() {
+    public seleccion() {
         // Configurar la ventana principal
         super("Selección Sort GUI");
         setSize(500, 500);
@@ -93,6 +93,6 @@ public class SeleccionSortGUI extends JFrame {
 
     // Ejecutar la aplicación
     public static void main(String[] args) {
-        new selectiva();
+        new seleccion();
     }
 }
